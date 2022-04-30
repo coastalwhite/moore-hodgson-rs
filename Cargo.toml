@@ -1,0 +1,17 @@
+[package]
+name = "moore-hodgson"
+version = "0.1.0"
+description = "An implementation of the Moore Hodgson's Scheduling Algorithm in Rust"
+edition = "2021"
+authors = ["Gijs Burghoorn <me@gburghoorn.com>"]
+categories = ["algorithms", "no-std"]
+keywords = ["moore", "hodgson", "scheduling", "late", "due"]
+
+rust-version = "1.58.0"
+repository = "https://github.com/coastalwhite/moore-hodgson-rs"
+license = "MIT"
+readme = "README.md"
+include = ["src/**/*", "Cargo.lock", "README.md", "LICENSE"]
+
+[dependencies]
+# No dependencies
