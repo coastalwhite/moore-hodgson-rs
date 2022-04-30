@@ -1,6 +1,6 @@
-//! An implementation of the Moore-Hudgson algorithm within `no_std` rust.
+//! An implementation of the Moore-Hodgson algorithm within `no_std` rust.
 //!
-//! The [Moore-Hudgson algorithm](https://www.bsraya.com/portfolio/moore-hodgson-algorithm/) is a
+//! The [Moore-Hodgson algorithm](https://www.bsraya.com/portfolio/moore-hodgson-algorithm/) is a
 //! scheduling algorithm that minimizes the amount of late jobs.
 //!
 //! It provides a single function [`moore_hodgson`], that performs the algorithm.

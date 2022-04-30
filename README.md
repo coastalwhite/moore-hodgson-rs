@@ -1,9 +1,10 @@
 # Moore Hodgson in Rust
-![License: MIT](https://img.shields.io/badge/license-MIT-blue) [![moore-hodgson on crates.io](https://img.shields.io/crates/v/moore-hodgson)](https://crates.io/crates/moore-hodgson) [![Source Code Repository](https://img.shields.io/badge/Code-On%20GitHub-blue?logo=GitHub)](https://github.com/coastalwhite/moore-hodgson)
 
-An implementation of the Moore-Hudgson algorithm within `no_std` rust.
+![License: MIT](https://img.shields.io/badge/license-MIT-blue) [![moore-hodgson on crates.io](https://img.shields.io/crates/v/moore-hodgson)](https://crates.io/crates/moore-hodgson) [![Source Code Repository](https://img.shields.io/badge/Code-On%20GitHub-blue?logo=GitHub)](https://github.com/coastalwhite/moore-hodgson-rs)
 
-The [Moore-Hudgson algorithm][__link0] is a scheduling algorithm that minimizes the amount of late jobs.
+An implementation of the Moore-Hodgson algorithm within `no_std` rust.
+
+The [Moore-Hodgson algorithm][__link0] is a scheduling algorithm that minimizes the amount of late jobs.
 
 It provides a single function [`moore_hodgson`][__link1], that performs the algorithm.
 
